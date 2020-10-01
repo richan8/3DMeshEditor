@@ -10,7 +10,7 @@ The program reads .off files titled mesh0, mesh1, mesh2 up to mesh9. The code fo
 reading the files has been generalized so the program is compatible with any mesh.
 Multiple meshes of different models can be loaded onto the screen at once. The keys to
 load the mesh are 1 to 9.
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/richan8/3DMeshEditor/blob/main/imgs/1.PNG)
 ## Perform basic transformations (Translate, rotate, scale) on the meshes:
 The program implements application of Eigen Matrixes to perform transformations on
 matrixes. Model selection is done with the mouse. The selected model and its vertex are
@@ -28,7 +28,7 @@ been ensured that the vertex highlight does not get affected by scene lighting.
 The selected vertex can be given 4 different colors by pressing F1, F2, F3 and F4 keys.
 The colors of vertexes are managed properly so selecting and unselecting a vertex changes
 its color from the original color to the highlight color and back to the original.
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/richan8/3DMeshEditor/blob/main/imgs/2.PNG)
 ## Vertex deletion via edge Collapse:
 The selected vertex can be removed from the mesh (Mesh Simplification) by pressing the X
 key. The program selects the closest vertex to it to select an edge, then it performs an
