@@ -1,0 +1,4 @@
+Attribution for OFF Files
+
+https://shape.cs.princeton.edu/benchmark/index.cgi
+http://www.holmes3d.net/graphics/offfiles/
